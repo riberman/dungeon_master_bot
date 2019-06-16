@@ -12,3 +12,31 @@
 - Boot sends random messages.
 - Boot sends news daily.
 - Boot sends messages daily.
+
+**Create Bot**  
+Creat bot in BotFather Using tutorial.  
+[https://www.codementor.io/garethdwyer/building-a-telegram-bot-using-python-part-1-goi5fncay](https://www.codementor.io/garethdwyer/building-a-telegram-bot-using-python-part-1-goi5fncay)
+
+**Config Bot**  
+Edit token telegram, chats ids and APIs token.  
+
+    #Config
+    TOKEN = "TOKEN_BOT"
+    URL = "https://api.telegram.org/bot{}/".format(TOKEN)
+    CHAT_ID = GROUP_ID
+    CHAT_ID_ROOT = ADMIN_ID
+    
+    #Emojis
+    EMOJI_INFO = emojize(':information_source:', use_aliases=True)
+    
+    #APIs Integration
+    API1 = "https://economia.awesomeapi.com.br/all/USD-BRL,EUR-BRL,BTC-BRL,ETH-BRL"
+    API3 = "http://apiadvisor.climatempo.com.br/api/v1/weather/locale/6993/current?token=TOKEN"
+    API4 = "https://newsapi.org/v2/top-headlines?sources=google-news-br&apiKey=TOKEN"
+
+**Run Bot**  
+
+    python telegram.py
+
+**Python Requirements**  
+you need install, **randint**, **emojize**, **requests** in python to run this script.
