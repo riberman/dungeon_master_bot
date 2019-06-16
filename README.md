@@ -36,7 +36,7 @@ Edit token telegram, chats ids and APIs token.
 
 **Run Bot**  
 
-    python telegram.py
+    python telegram_bot.py
 
 **Python Requirements**  
 you need install, **randint**, **emojize**, **requests** in python to run this script.
