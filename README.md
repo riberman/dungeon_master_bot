@@ -14,7 +14,7 @@
 - Boot sends messages daily.
 
 **Create Bot**  
-Creat bot in BotFather Using tutorial.  
+Create bot in BotFather Using tutorial.  
 [https://www.codementor.io/garethdwyer/building-a-telegram-bot-using-python-part-1-goi5fncay](https://www.codementor.io/garethdwyer/building-a-telegram-bot-using-python-part-1-goi5fncay)
 
 **Config Bot**  
